@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         result  = findViewById<TextView>(R.id.result_number)
 
         val buttonConverter = findViewById<Button>(R.id.button_converter)
